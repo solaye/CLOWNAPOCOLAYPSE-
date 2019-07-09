@@ -1,0 +1,913 @@
+.buyNotDie {
+  color: #be0000;
+}
+
+itm-desc {
+  color: black;
+}
+
+.card-body {
+  background-color: rgba(52, 126, 15, 0.972);
+}
+
+.list-group-item {
+  color: #c2ec03;
+}
+
+.btn-secondary {
+  background-color: #9c0101;
+}
+
+.weapons {
+  height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.food {
+  height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.armor {
+  height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */
+
+.buyNotDie {
+  color: #be0000;
+}
+
+itm-desc {
+  color: black;
+}
+
+.card-body {
+  background-color: rgba(52, 126, 15, 0.972);
+}
+
+.list-group-item {
+  color: #c2ec03;
+}
+
+.btn-secondary {
+  background-color: #9c0101;
+}
+
+.weapons {
+  height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.food {
+  height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.armor {
+  height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */
+
+* {
+  box-sizing: border-box;
+}
+
+.list-group-item {
+  line-height: 2.5;
+}
+
+/* Background clown image with responsive properties */
+body {
+  background-image: url("KillerKlown.jpeg");
+  background-blend-mode: soft-light;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #333;
+  max-width: 100%;
+  color: rgb(0, 0, 0);
+  opacity: .9.5;
+ }
+
+ .container {
+   max-width: 85%;
+ }
+
+ /* font used for text*/
+ @font-face {
+  font-family: 'Carnevalee Freakshow'; /*a name to be used later*/
+  src: url('Carnevalee Freakshow.ttf'); /*URL to font*/
+}
+
+/* font styling*/
+body {
+  font-family: 'Carnevalee Freakshow';
+  margin: 20px auto;
+	text-align: center;
+	/* text-shadow: -1px -1px 0px rgba(255,255,255,0.3), 1px 1px 0px rgba(0,0,0,0.8); */
+  color: rgb(194, 236, 3);
+
+}
+
+#example-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 16px;
+  text-shadow: -1px -1px 0px rgb(245, 240, 240), 1px 1px 0px rgb(248, 244, 244);
+  max-width: 925px;
+
+}
+
+#card-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  font-size: 16px;
+  text-shadow: -1px -1px 0px rgb(245, 240, 240), 1px 1px 0px rgb(248, 244, 244);
+  max-width: 925px;
+
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 64px;
+  box-shadow: 0 0 .2em .2em #ccc;
+}
+
+/* heading dropping down animation when page loads */
+.heading {
+  /* line-height: 1.3;
+  position: relative;
+  animation: heading;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out; */
+  box-shadow: 0 0 .2em .2em #ccc;
+}
+
+@keyframes heading {
+  0%   {top: -400px}
+  100% {top: 8px}
+}
+
+/* "we do survival" animation coming up when page loads */
+.survival {
+  /* line-height: 1.3;
+  position: relative;
+  animation: survival;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out; */
+  box-shadow: 0 0 .2em .2em #ccc;
+}
+
+@keyframes survival {
+  0%   {bottom: -600px}
+  100% {bottom: 4px}
+}
+
+/* "lets buy not die" fade in animation */
+.buyNotDie {
+  color: rgb(190, 0, 0);
+  animation: 3s ease 0s normal forwards 1 fadein;
+}
+
+@keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+.buyNotDie {
+  transition-duration: 30s;
+  transition-timing-function: linear;
+  box-shadow: 0 0 0em 0em #ccc;
+}
+
+/* "lets buy not die" quote on hover rotation */
+.buyNotDie:hover {
+  transform: rotateY(3600deg)
+}
+
+.armor {
+  background-image: url("gear.jpeg");
+  /* height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  
+}
+
+.weapons   {
+  background-image: url("weapon.jpeg");
+  /* height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+.food   {
+  background-image: url("food2.png");
+  /* height: 240px;
+  width: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+}
+
+img {
+  opacity: .8;
+}
+
+
+td {
+  font-size: 24px;
+}
+
+
+#cart-card {
+  font-family: Arial;
+}
+.itm-desc{
+  color:black;
+
+  
+}
+.card-body{
+ background-color: rgba(52, 126, 15, 0.972);
+ opacity: 100%;
+ 
+}
+.card-button{
+  margin-bottom: 10px;
+}
+
+#links{
+  font-family: Arial;
+ font-size: 30px;
+
+}
+
+#cart-card{
+  margin-left: 100px;
+}
+
+#card-wrap{
+margin: 20px;
+ }
+=======
+=======
+.list-group-item {
+  font-size: 24px;
+  font-family: 'Carnevalee Freakshow';
+  margin: center;
+  color: rgb(194, 236, 3);
+}
+
+.data {
+  margin: center;
+}
+
+
+.giphy-embed{
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.btn-secondary {
+background-color: rgb(156, 1, 1);
+height: 50px;
+width: 200px;
+font-size: 24px;
+}
+
+h4 {
+  font-size: 60px;
+}
+
+.buy{
+  margin: 20px;
+  color: rgb(194, 236, 3);
+  font-size: 20px;
+  border-color: rgb(194, 236, 3);
+ 
+ 
+ }
+
+/* .clown{
+  position: relative;
+  animation-timing-function: ease-in-out;
+  animation-name: strobe;
+  animation-duration: 6s;
+  animation-iteration-count: 10s;
+}
+
+@media (min-width: 1px) and (max-width: 300px) {
+   .clown{
+    position: relative;
+    top: 0;
+    left: 0;
+    animation-timing-function: ease-in-out;
+    animation-name: strobe;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+  }  
+}
+  
+@media screen and (min-width:701px) {
+	@keyframes strobe {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+  25% {
+    opacity: 0;
+    transform: scale(0.25);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(0.5);
+  }
+    75% {
+    opacity: 1;
+    transform: scale(0.25);
+  }
+    100% {
+    opacity: 1;
+    transform: scale(0);
+  }
+	}
+  
+.bowtie{
+  background-image: url("https://carlakroll.com/clown/bowtie.svg");
+  background-repeat:no-repeat;
+  width: 160px;
+  height: 100px;
+  position: absolute;
+  top: 640px;
+  left: 590px;
+  animation-name: twister;
+  animation-duration: 5s;
+  animation-delay: 1.25s;
+  animation-iteration-count: infinite;
+  z-index: 1000;
+}
+
+.eyes{
+  background-image: url("https://carlakroll.com/clown/eyes.svg");
+  background-repeat:no-repeat;
+  width: 220px;
+  height: 50px;
+  position: absolute;
+  top: 356px;
+  left: 556px;
+  z-index:2;
+}
+  
+.makeup{
+  background-image: url("https://carlakroll.com/clown/makeup.svg");
+  background-repeat:no-repeat;
+  width: 175px;
+  height: 162px;
+  position: absolute;
+  top: 306px;
+  left: 586px;
+}
+
+.nose{
+  background-image: url("https://carlakroll.com/clown/nose.svg");
+  background-repeat:no-repeat;
+  width: 220px;
+  height: 70px;
+  position: absolute;
+  top: 400px;
+  left: 630px;
+}
+
+.mouth{
+  background-image: url("https://carlakroll.com/clown/mouth.svg");
+  background-repeat:no-repeat;
+  width: 220px;
+  height: 110px;
+  position: absolute;
+  top: 496px;
+  left: 560px;
+}
+
+.head{
+  background-image: url("https://carlakroll.com/clown/head.svg");
+  width: 334px;
+  height: 477px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+.hair-l{
+  background-image: url("https://carlakroll.com/clown/hair-l.svg");
+  width: 158px;
+  height: 439px;
+	
+	position: absolute;
+  top: 200px;
+  left: 400px;
+  z-index:4;
+}
+.hair-r{
+  background-image: url("https://carlakroll.com/clown/hair-r.svg");
+  width: 154px;
+  height: 439px;
+	
+	position: absolute;
+  top: 200px;
+  left: 775px;
+  z-index:4;
+}
+.hair-b{
+  background-image: url("https://carlakroll.com/clown/hair-b.svg");
+  width: 374px;
+  height: 427px;
+	position: absolute;
+  top: 220px;
+  left: 490px;
+  z-index: -1;
+}
+
+@keyframes twister {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  10% {
+    transform: rotateZ(360deg);
+  }
+  20% {
+    transform: rotateZ(720deg);
+  }
+  30% {
+    transform: rotateZ(1080deg);
+  }
+  40% {
+    transform: rotateZ(1440deg);
+  }
+  50% {
+    transform: rotateZ(1800deg);
+  }
+  60% {
+    transform: rotateZ(2160deg);
+  }
+  70% {
+    transform: rotateZ(2520deg);
+  }
+  80% {
+  }
+  90% {
+  }
+  100% {
+  }
+}
+
+
+@keyframes strobe {
+  0% {
+    opacity: 1;
+    transform: scale(0.01);
+  }
+  1% {
+    opacity: 0;
+    transform: scale(0.1);
+  }
+  2% {
+    opacity: 1;
+    transform: scale(0.2);
+  }
+  3% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  4% {
+    opacity: 1;
+    transform: scale(0.4);
+  }
+  5% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  6% {
+    opacity: 1;
+    transform: scale(0.6);
+  }
+  7% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  8% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+  9% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  10% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  11% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  12% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  13% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+  14% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+  15% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  16% {
+    opacity: 1;
+    transform: scale(1.6);
+  }
+  17% {
+    opacity: 0;
+    transform: scale(1.7);
+  }
+  18% {
+    opacity: 1;
+    transform: scale(1.8);
+  }
+  19% {
+    opacity: 0;
+    transform: scale(1.9);
+  }
+  20% {
+    opacity: 1;
+    transform: scale(2);
+  }
+  21% {
+    opacity: 0;
+    transform: scale(2.1);
+  }
+  22% {
+    opacity: 1;
+    transform: scale(2.2);
+  }
+  23% {
+    opacity: 0;
+    transform: scale(2.3);
+  }
+  24% {
+    opacity: 1;
+    transform: scale(2.4);
+  }
+  25% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+  26% {
+    opacity: 1;
+    transform: scale(2.6);
+  }
+  27% {
+    opacity: 0;
+    transform: scale(2.7);
+  }
+  28% {
+    opacity: 1;
+    transform: scale(2.8);
+  }
+  29% {
+    opacity: 0;
+    transform: scale(2.9);
+  }
+  30% {
+    opacity: 1;
+    transform: scale(3);
+  }
+  31% {
+    opacity: 0;
+    transform: scale(3.1);
+  }
+  32% {
+    opacity: 1;
+    transform: scale(3.2);
+  }
+  33% {
+    opacity: 0;
+    transform: scale(3.3);
+  }
+  34% {
+    opacity: 1;
+    transform: scale(3.4);
+  }
+  35% {
+    opacity: 0;
+    transform: scale(3.5);
+  }
+  36% {
+    opacity: 1;
+    transform: scale(3.6);
+  }
+  37% {
+    opacity: 0;
+    transform: scale(3.7);
+  }
+  38% {
+    opacity: 1;
+    transform: scale(3.8);
+  }
+  39% {
+    opacity: 0;
+    transform: scale(3.9);
+  }
+  40% {
+    opacity: 1;
+    transform: scale(4);
+  }
+  41% {
+    opacity: 0;
+    transform: scale(4.1);
+  }
+  42% {
+    opacity: 1;
+    transform: scale(4.2);
+  }
+  43% {
+    opacity: 0;
+    transform: scale(4.3);
+  }
+  44% {
+    opacity: 1;
+    transform: scale(4.4);
+  }
+  45% {
+    opacity: 0;
+    transform: scale(4.5);
+  }
+  46% {
+    opacity: 1;
+    transform: scale(4.6);
+  }
+  47% {
+    opacity: 0;
+    transform: scale(4.7);
+  }
+  48% {
+    opacity: 1;
+    transform: scale(4.8);
+  }
+  49% {
+    opacity: 0;
+    transform: scale(4.9);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(5);
+  }
+  51% {
+    opacity: 0;
+    transform: scale(4.9);
+  }
+  52% {
+    opacity: 1;
+    transform: scale(4.8);
+  }
+  53% {
+    opacity: 0;
+    transform: scale(4.7);
+  }
+  54% {
+    opacity: 1;
+    transform: scale(4.6);
+  }
+  55% {
+    opacity: 0;
+    transform: scale(4.5);
+  }
+  56% {
+    opacity: 1;
+    transform: scale(4.4);
+  }
+  57% {
+    opacity: 0;
+    transform: scale(4.3);
+  }
+  58% {
+    opacity: 1;
+    transform: scale(4.2);
+  }
+  59% {
+    opacity: 0;
+    transform: scale(4.1);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(4);
+  }
+  61% {
+    opacity: 0;
+    transform: scale(3.9);
+  }
+  62% {
+    opacity: 1;
+    transform: scale(3.8);
+  }
+  63% {
+    opacity: 0;
+    transform: scale(3.7);
+  }
+  64% {
+    opacity: 1;
+    transform: scale(3.6);
+  }
+  65% {
+    opacity: 0;
+    transform: scale(3.5);
+  }
+  66% {
+    opacity: 1;
+    transform: scale(3.4);
+  }
+  67% {
+    opacity: 0;
+    transform: scale(3.3);
+  }
+  68% {
+    opacity: 1;
+    transform: scale(3.2);
+  }
+  69% {
+    opacity: 0;
+    transform: scale(3.1);
+  }
+  70% {
+    opacity: 1;
+    transform: scale(3);
+  }
+  71% {
+    opacity: 0;
+    transform: scale(2.9);
+  }
+  72% {
+    opacity: 1;
+    transform: scale(2.8);
+  }
+  73% {
+    opacity: 0;
+    transform: scale(2.7);
+  }
+  74% {
+    opacity: 1;
+    transform: scale(2.6);
+  }
+  75% {
+    opacity: 0;
+    transform: scale(2.5);
+  }
+  76% {
+    opacity: 1;
+    transform: scale(2.4);
+  }
+  77% {
+    opacity: 0;
+    transform: scale(2.3);
+  }
+  78% {
+    opacity: 1;
+    transform: scale(2.2);
+  }
+  79% {
+    opacity: 0;
+    transform: scale(2.1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(2);
+  }
+  81% {
+    opacity: 0;
+    transform: scale(1.9);
+  }
+  82% {
+    opacity: 1;
+    transform: scale(1.8);
+  }
+  83% {
+    opacity: 0;
+    transform: scale(1.7);
+  }
+  84% {
+    opacity: 1;
+    transform: scale(1.6);
+  }
+  85% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  86% {
+    opacity: 1;
+    transform: scale(1.4);
+  }
+  87% {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+  88% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  89% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  90% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  91% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  92% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  93% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  94% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  95% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  96% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  97% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  98% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  99% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: 1;
+  }
+} */

@@ -1,0 +1,91 @@
+
+<h4>WeaponS:</h4>
+
+<div "col-md-12"></div>
+        <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Item namE</th>
+      <th scope="col">DescriptioN</th>
+      <th scope="col">CategorY</th>
+      <th scope="col">QtY</th>
+      <th scope="col">PricE</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{!-- buttons can be accessed by class gear-1, gear-2, ect --}}
+    {{#each each_weapon}}
+   
+    <tr>
+      <th scope="row gear-table">{{this.id}}</th>
+      <td>{{this.name}}</td>
+      <td>{{this.text}}</td>
+      <td>{{this.category}}</td>
+      <td>{{this.quantity}}</td>
+      <td>{{this.price}}</td>
+      <td></td>
+      <td><button type="button gear-1" class="btn btn-danger">BuY</button></td>
+          </tr>
+         
+    
+    {{/each}}
+    <tr>
+    </div>
+  </tbody>
+</table>
+        
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img src="https://media.giphy.com/media/l41lGpSorY5zr1OYE/giphy.gif" alt="Party Smoke GIF by Good Old War" style="padding: 4px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/l41lGpSorY5zr1OYE" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen>
+        </iframe></div>
+      <p><a href="https://giphy.com/gifs/goodoldwar-laser-clown-good-old-war-l41lGpSorY5zr1OYE"></a></p>
+    </div>
+    <div class="col-sm-2"> --}}
+      <img src="https://media.giphy.com/media/1rXIHB8BvY1cA/giphy.gif" alt="Sister May GIF" style="padding: 4px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/1rXIHB8BvY1cA" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/1rXIHB8BvY1cA"></a></p>
+     
+    </div>
+    <div class="col-sm-2"> --}}
+      <img src="https://media.giphy.com/media/jtNLnCkdglikE/giphy.gif" alt="Glitch Request GIF" style="padding: 4px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/jtNLnCkdglikE" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/request-mcdonald-fulfilled-jtNLnCkdglikE"></a></p>
+    </div>
+    <div class="col-sm-2"> --}}
+
+      <img src="https://media.giphy.com/media/qwEUso0sqlGRa/giphy.gif" alt="Cult Classic 90S GIF by absurdnoise" style="padding: 4px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/qwEUso0sqlGRa" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/absurdnoise-horror-90s-absurdnoise-qwEUso0sqlGRa"></a></p>
+    </div>
+    <div class="col-sm-2"> --}}
+      <img src="https://media.giphy.com/media/xlHQ1JYDEeIrm/giphy.gif" alt="Animation Fighting GIF by Rough Sketchz" style="padding: 4px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/xlHQ1JYDEeIrm" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/animation-halloween-cartoon-xlHQ1JYDEeIrm"></a></p> --}}
+    </div>
+  </div>
+</div>
+
+<div>
+  <h3><a href="/">Back to homE</a></h3>
+  <h3><a href="food">FooD</a></h3>
+  <h3><a href="gear">GeaR</a></h3>
+  <h3><a href="weapons">WeaponS</a></h3>
+  <h3><a href="cart">Go to carT</a></h3>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>

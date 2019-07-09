@@ -1,0 +1,110 @@
+
+<h3>CART:</h3>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Item namE</th>
+      <th scope="col">DescriptioN</th>
+      <th scope="col">CategorY</th>
+      <th scope="col">QtY</th>
+      <th scope="col">PricE</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{!-- buttons can be accessed by class gear-1, gear-2, ect --}}
+    {{#each cart_items}}
+
+    <tr data-id="{{id}}">
+      <th scope="row gear-table">{{this.id}}</th>
+      <td>{{this.name}}</td>
+      <td>{{this.text}}</td>
+      <td>{{this.category}}</td>
+      <td>{{this.quantity}}</td>
+      <td>{{this.price}}</td>
+      <td></td>
+      <td><button class="delete glyphicon glyphicon-remove">Remove From Cart</button></td>
+    </tr>
+
+
+    {{/each}}
+    <tr>
+      </div>
+  </tbody>
+</table>
+
+<div>
+   <button class="btn btn-outline-warning buy">CheckouT</button>
+</div>
+
+<ul id="links"style="list-style-type:none;" >
+   <li> <a href="/"> Back To Home</a></li>
+    <li><a href="food">Food</a></li>
+    <li><a href="gear">Gear</a></li>
+    <li><a href="weapons">Weapons</a></li>
+    <li><a href="cart">Go to Cart</a></li>
+</ul>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/delete.js"></script>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{!-- <h3>CART:</h3>
+<div "col-md-12"></div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Item namE</th>
+            <th scope="col">DescriptioN</th>
+            <th scope="col">PricE</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each cart_items}}
+        <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.text}}</td>
+            <td>{{this.price}}</td>
+            <td></td>
+            <td><button type="button gear-1" class="btn btn-danger delete">remove from cart</button></td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+<div>
+    <h3><a href="/">Back to homE</a></h3>
+    <h3><a href="food">FooD</a></h3>
+    <h3><a href="gear">GeaR</a></h3>
+    <h3><a href="weapons">WeaponS</a></h3>
+    <h3><a href="cart">Go to carT</a></h3>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/delete.js"></script> --}}

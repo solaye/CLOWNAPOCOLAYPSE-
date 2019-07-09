@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Beware of Clowns</title>
+    </head>
+    <body>
+
+        
+        <h1>ClownapocalypsE</h1>
+        <form name="login">
+            Username<input type="text" id = "username" name="Clowns"/>
+            Password<input type="password" id ="password" name="Clowns123"/>
+            <input type="button" onclick="getAccess()" value="Login"/>
+            <input type="reset" value="Cancel"/>
+        </form>
+        <script language="javascript">
+           
+            function getAccess() { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                //console.log(form); 
+               var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+
+                if(username === "CLOWNS" && password === "Clowns123") {
+                    window.open('/')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+    </body>
+</html>
+

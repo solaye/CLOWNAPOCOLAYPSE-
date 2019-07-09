@@ -1,0 +1,98 @@
+<h4>FooD:</h4>
+<div "col-md-12"></div>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Item namE</th>
+      <th scope="col">DescriptioN</th>
+      <th scope="col">CategorY</th>
+      <th scope="col">QtY</th>
+      <th scope="col">PricE</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{!-- buttons can be accessed by class gear-1, gear-2, ect --}}
+    {{#each each_food}}
+
+    <tr>
+      <th scope="row gear-table">{{this.id}}</th>
+      <td>{{this.name}}</td>
+      <td>{{this.text}}</td>
+      <td>{{this.category}}</td>
+      <td>{{this.quantity}}</td>
+      <td>{{this.price}}</td>
+      <td></td>
+      <td><button type="button gear-1" class="btn btn-danger">BuY</button></td>
+    </tr>
+
+
+    {{/each}}
+    <tr>
+      </div>
+  </tbody>
+</table>
+
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img src="https://media.giphy.com/media/ico3sfg3hIhsA/giphy.gif" alt="Morning GIF"
+        style="padding: 8px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/ico3sfg3hIhsA" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/ico3sfg3hIhsA"></a></p> --}}
+      {{!-- </div>
+    <div class="col-sm-2"> --}}
+
+      <img src="https://media.giphy.com/media/3o7TKWJMUPNGrPiXMQ/giphy.gif" alt="Jump Lol GIF by Justin Gammon"
+        style="padding: 8px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/3o7TKWJMUPNGrPiXMQ" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/food-lol-wtf-3o7TKWJMUPNGrPiXMQ"></a></p> --}}
+      {{!-- </div>
+    <div class="col-sm-2"> --}}
+
+      <img src="https://media.giphy.com/media/Ue0jev5l4BKgM/giphy.gif" alt="Cotton Candy Girl GIF"
+        style="padding: 8px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/Ue0jev5l4BKgM" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/girl-blue-super-Ue0jev5l4BKgM"></a></p> --}}
+      {{!-- </div>
+    <div class="col-sm-2"> --}}
+
+      <img src="https://media.giphy.com/media/RMYOvvdoqVE3e/giphy.gif" alt="Meal GIF"
+        style="padding: 8px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/RMYOvvdoqVE3e" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/RMYOvvdoqVE3e"></a></p> --}}
+      {{!-- </div>
+    <div class="col-sm-2"> --}}
+      <img src="https://media.giphy.com/media/xT8qB1sUYm89RuKT8A/giphy.gif" alt="Gds GIF by Good Day Sacramento"
+        style="padding: 8px; width: 200px; height: 200px; left: 0px; top: 0px; opacity: 1;">
+      {{!-- <div style="width:100%;height:0;padding-bottom:200%;position:relative;"><iframe
+          src="https://giphy.com/embed/xT8qB1sUYm89RuKT8A" width="100%" height="100%" style="position:absolute"
+          frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/gds-good-day-sacramento-sac-xT8qB1sUYm89RuKT8A"></a></p> --}}
+    </div>
+  </div>
+</div>
+
+<div>
+  <h3><a href="/">Back to homE</a></h3>
+  <h3><a href="food">FooD</a></h3>
+  <h3><a href="gear">GeaR</a></h3>
+  <h3><a href="weapons">WeaponS</a></h3>
+  <h3><a href="cart">Go to carT</a></h3>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>

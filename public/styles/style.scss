@@ -1,0 +1,63 @@
+$slime:  rgb(194, 236, 3);
+
+$blood:  rgb(190, 0, 0);
+
+$dark:  rgb(0, 0, 0);
+
+$ruby:  rgb(156, 1, 1);
+
+$moneygreen: rgba(52, 126, 15, 0.972);
+
+  $picHeight: 240px;
+  $picWidth: 240px;
+  $picBackground-size: cover;
+  $picBackground-repeat: no-repeat;
+  $picBackground-position: center;
+
+.buyNotDie {
+   color: $blood;
+}
+
+
+itm-desc{
+   color: $dark;
+
+
+ }
+
+ .card-body{
+   background-color: $moneygreen;
+
+  }
+
+  .list-group-item {
+   color: $slime
+ }
+
+ .btn-secondary {
+   background-color: $ruby
+   }
+
+.weapons{
+    height: $picHeight;
+    width: $picWidth;
+    background-size: $picBackground-size;
+    background-repeat: $picBackground-repeat;
+    background-position: $picBackground-position;
+}
+
+.food {
+    height: $picHeight;
+    width: $picWidth;
+    background-size: $picBackground-size;
+    background-repeat: $picBackground-repeat;
+    background-position: $picBackground-position;
+}
+
+.armor {
+    height: $picHeight;
+    width: $picWidth;
+    background-size: $picBackground-size;
+    background-repeat: $picBackground-repeat;
+    background-position: $picBackground-position;
+}
